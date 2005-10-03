@@ -8,7 +8,7 @@ Summary:	%{_pearname} - common interface to image drawing
 Summary(pl):	%{_pearname} - wspólny interfejs do rysowania obrazków
 Name:		php-pear-%{_pearname}
 Version:	0.2.1
-Release:	1.1
+Release:	1.2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -17,6 +17,7 @@ URL:		http://pear.php.net/package/Image_Canvas/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-gd
 Requires:	php-pear
+Requires:	php-pear-Image_Color >= 1.0.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
