@@ -15,6 +15,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	baeac10e1ecdcfb549c6ffe36ac59c93
 URL:		http://pear.php.net/package/Image_Canvas/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-gd
 Requires:	php-pear
