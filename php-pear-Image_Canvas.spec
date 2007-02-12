@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - common interface to image drawing
-Summary(pl):	%{_pearname} - wspÛlny interfejs do rysowania obrazkÛw
+Summary(pl.UTF-8):   %{_pearname} - wsp√≥lny interfejs do rysowania obrazk√≥w
 Name:		php-pear-%{_pearname}
 Version:	0.3.0
 Release:	2
@@ -30,15 +30,15 @@ code independent on the library used.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Pakiet dostarczaj±cy wspÛlnego interfejsu do rysowania obrazkÛw,
-sprawiaj±c, iø kod jest niezaleøny od uøytej biblioteki.
+%description -l pl.UTF-8
+Pakiet dostarczajƒÖcy wsp√≥lnego interfejsu do rysowania obrazk√≥w,
+sprawiajƒÖc, i≈º kod jest niezale≈ºny od u≈ºytej biblioteki.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -47,7 +47,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
