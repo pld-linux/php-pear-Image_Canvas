@@ -8,7 +8,7 @@ Summary:	%{_pearname} - common interface to image drawing
 Summary(pl.UTF-8):	%{_pearname} - wspólny interfejs do rysowania obrazków
 Name:		php-pear-%{_pearname}
 Version:	0.3.1
-Release:	1
+Release:	2
 Epoch:		0
 License:	LGPL
 Group:		Development/Languages/PHP
