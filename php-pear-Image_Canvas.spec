@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		alpha
 %define		_pearname	Image_Canvas
 Summary:	%{_pearname} - common interface to image drawing
